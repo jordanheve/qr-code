@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+:root {
+  --white: hsl(0, 0%, 100%);
+  --blue: hsl(212, 45%, 89%);
+  --gray: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--blue);
+  font-family: "Outfit", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.container {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 18rem;
+  box-shadow: 0 0.4rem 1rem -0.6rem var(--dark-blue);
+}
+.container img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.container .text-container {
+  margin: 1rem;
+}
+.container .text-container h1 {
+  color: var(--dark-blue);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.container .text-container p {
+  color: var(--gray);
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--gray);
+}
+footer a {
+  color: var(--gray);
+  color: var(--dark-blue);
+}/*# sourceMappingURL=styles.css.map */
